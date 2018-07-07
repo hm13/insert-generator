@@ -1,0 +1,7 @@
+{
+  "name": "insert-generator",
+  "main": "index.js",
+  "dependencies": {
+    "jscolor": "0.3.0"
+  }
+}
