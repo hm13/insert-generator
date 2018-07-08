@@ -2,6 +2,6 @@
   "name": "insert-generator",
   "main": "index.js",
   "dependencies": {
-    "jscolor": "0.3.0"
+    "jscolor-picker": "2.0.4"
   }
 }

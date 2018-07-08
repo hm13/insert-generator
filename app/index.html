@@ -2,12 +2,16 @@
 <html lang="ja-JP">
   <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="main.css">
   </head>
   <body>
-    <div id="main-title">インサートジェネレータ！</div>
-    <canvas id="canvas"></canvas>
-    <button onclick="window.fillBlue()">青</button>
-    <button onclick="window.fillGreen()">緑</button>
-    <script src="bundle.js"></script>
+    <div class="frame">
+      <div class="title">インサートジェネレータ</div>
+      <br>
+      <canvas class="canvas" id="canvas" width="300" height="100"></canvas>
+      <br>
+      <button id="id1" class="jscolor {onFineChange: 'window.update()'}"></button>
+      <script src="bundle.js"></script>
+    </div>
   </body>
 </html>

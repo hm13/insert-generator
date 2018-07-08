@@ -1,7 +1,11 @@
-.main-title {
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 1.5rem;
-    font-size: 12px;
+.frame {
+    margin: auto;
+    width: 70%;
+    text-align: center;
+    border: 1px solid #73AD21;
+    padding: 10px;
   }
+.canvas {
+  margin: auto;
+  border: 1px solid #73AD21;
+}
